@@ -26,6 +26,8 @@ public class test {
         list.add(new Student("wang",26,"男"));
 
 
+
+
         System.out.println(list);
         list.sort(Comparator.comparing(e ->e.getSex()));
         System.out.println(list);
